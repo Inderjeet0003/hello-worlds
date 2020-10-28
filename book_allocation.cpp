@@ -16,11 +16,10 @@
         #define vp vector<pll>
         #define fl(i, x, y) for(long i=x;i<y;++i)
         #define flr(i, x, y) for(long i=x;i>=y;--i)
-
+        // find in array if  possible
         bool is_possible(ll arr[],ll n,ll m,ll curr_min)
         {
             ll sum=0,students=1;
-
             for(ll i=0;i<n;i++)
             {
                 if(arr[i] > curr_min)
